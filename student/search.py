@@ -8,7 +8,7 @@ Mô hình hóa:
 
 from time import perf_counter
 
-from .board import empty_positions, legal_moves, move, spawn
+from .board import chance_outcomes, legal_moves, move
 
 
 class SearchStopped(Exception):
